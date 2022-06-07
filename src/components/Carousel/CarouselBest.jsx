@@ -5,7 +5,7 @@ import { Carousel, Card, Container, Row, Col } from "react-bootstrap";
 
 const CarouselBest = () => {
   return (
-    <div className="content-img-carousel">
+    <div className="content-img-carousel" data-aos="zoom-in">
       <div className="container mt-5 content-text-carousel">
         <h2 className="text-center mt-5 mb-5 text-best">OUR BEST SELLING</h2>
 

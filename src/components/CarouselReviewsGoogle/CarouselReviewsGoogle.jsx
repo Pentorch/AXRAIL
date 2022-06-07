@@ -5,7 +5,11 @@ import { Carousel, Card, Container, Row, Col } from "react-bootstrap";
 
 const CarouselReviewsGoogle = () => {
   return (
-    <div className="content-img-carousel">
+    <div
+      className="content-img-carousel"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
       <div className="container mt-5 content-text-carousel">
         <h2 className="text-center mt-5 mb-5 text-reviews-google">
           GOOGLE REVIEWS

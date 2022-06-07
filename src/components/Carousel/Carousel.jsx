@@ -5,7 +5,7 @@ import { Carousel, Card, Container, Row, Col } from "react-bootstrap";
 const CarouselN = () => {
   return (
     <div className="content-img-carousel">
-      <div className="container mt-5 content-text-carousel">
+      <div className="container mt-5 content-text-carousel" data-aos="fade-up">
         <h1>New Sweet Innovation In Town</h1>
         <p>
           TEXTURE by C3 Lab was founded under the impression of C3 Lab. Pastry

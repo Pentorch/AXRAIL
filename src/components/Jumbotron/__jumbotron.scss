@@ -1,0 +1,27 @@
+.content-jumbotron {
+  background-color: #f3f4f9;
+  height: 80vh !important;
+}
+
+@media screen and (max-width: 768px) {
+  .content-jumbotron {
+    background-color: #f3f4f9;
+    height: auto !important;
+  }
+
+  .img-jumbotron {
+    margin-top: 30px;
+    margin-left: 20px !important;
+    height: auto !important;
+  }
+  h2 {
+    margin: 50px;
+    margin-top: 100px !important;
+  }
+  p {
+    margin: 50px;
+  }
+  .content-jumbotron {
+    margin-top: -20px;
+  }
+}

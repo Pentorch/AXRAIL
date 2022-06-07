@@ -1,0 +1,118 @@
+.content-navbar {
+  background-color: #f3f4f9 !important;
+}
+.content-bg {
+  background-color: rgb(149, 149, 149) !important;
+}
+
+.nav-item a {
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: -20px;
+  position: relative;
+}
+
+.nav-item a::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 4px;
+
+  left: 50%;
+  bottom: -10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  cursor: pointer;
+  color: #000000 !important;
+}
+
+.nav-item a:hover::after {
+  margin-bottom: 15px;
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(44, 43, 43);
+  bottom: 0;
+  left: 0;
+}
+
+li.content-drop {
+  display: inline-block;
+}
+
+.content-drop:hover .add-content-drop {
+  display: block;
+}
+
+.add-content-drop {
+  margin-top: -10px;
+  position: absolute;
+  display: none;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: #f9f9f9;
+  width: 30vh;
+  height: auto;
+  margin-left: -50%;
+  /* padding-left: -40%; */
+  // border-radius: 10px;
+}
+.add-content-drop p {
+  font-size: 14px;
+  font-weight: 350;
+  margin-left: -18px;
+  margin-right: 15px;
+  margin-top: 10px;
+  /* padding-top: 20%; */
+  color: #000000;
+}
+
+.add-content-drop p:hover {
+  color: rgb(167, 167, 167) !important;
+}
+
+.text-product {
+  margin-right: -25px;
+}
+
+.nav-link {
+  color: #f9f9f9 !important;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white !important;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .content-bg {
+    background-color: rgb(255, 255, 255) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-nav {
+    color: #000000 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-light {
+    background-color: #f3f4f9 !important;
+    font-weight: bold;
+  }
+}
+
+.content-bg-light {
+}

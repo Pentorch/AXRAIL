@@ -1,0 +1,61 @@
+.cs {
+  margin-top: -10px !important;
+  .icon-carousels {
+    position: relative;
+    top: 70px !important;
+    border-radius: 50%;
+    width: 7px !important;
+    height: 7px !important;
+    background-color: rgb(65, 65, 65) !important;
+  }
+  .icon-carousels:hover {
+    // margin-top: 100px;
+    background-color: rgb(66, 127, 237) !important;
+  }
+}
+
+.text-reviews-google {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -120px !important;
+}
+
+.card-carousel-google {
+  width: 100% !important;
+
+  height: 50% !important;
+}
+
+.carousel-control-prev {
+  margin: -100px !important;
+}
+.carousel-control-next {
+  margin: -100px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-control-next {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel-control-prev {
+    margin: 0 !important;
+  }
+}
+
+.google-indicators {
+  margin-bottom: 70px !important;
+}
+
+.icon-carousel-google {
+  position: relative;
+  top: 100px !important;
+  border-radius: 50%;
+  width: 8px !important;
+  height: 8px !important;
+  background-color: rgb(66, 66, 66) !important;
+}
+.icon-carousel-google:hover {
+  // margin-top: 100px;
+  background-color: rgb(68, 68, 68) !important;
+}

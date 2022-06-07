@@ -1,0 +1,27 @@
+.carousel {
+  margin-bottom: 220px !important;
+  .icon-carousels {
+    position: relative;
+    top: 70px !important;
+    border-radius: 50%;
+    width: 7px !important;
+    height: 7px !important;
+    background-color: rgb(65, 65, 65) !important;
+  }
+  .icon-carousels:hover {
+    // margin-top: 100px;
+    background-color: rgb(66, 127, 237) !important;
+  }
+}
+
+.text-reviews {
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+}

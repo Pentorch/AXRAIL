@@ -1,0 +1,39 @@
+li {
+  float: left;
+  color: #000000 !important;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .global-views {
+    margin-top: -4px;
+  }
+  .text-owner {
+    margin-left: -1px;
+    margin-bottom: -12px;
+  }
+
+  .text-views {
+    margin-left: -1px;
+    margin-bottom: 1px;
+  }
+  .text-views-date {
+    margin-left: -1px;
+    margin-bottom: 12px;
+  }
+  img-views-name {
+    width: 100%;
+    height: auto;
+  }
+  .img-card-reviews {
+    background-color: #f2f2f2;
+    // width: 220%;
+    margin-left: 10px;
+    h5 {
+      margin-left: -10px;
+      font-size: 18px;
+    }
+  }
+}

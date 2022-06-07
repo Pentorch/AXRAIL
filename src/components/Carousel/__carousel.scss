@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://c3lab-my.com/wp-content/uploads/2019/09/marble-1a-scaled-1.jpg?id=5817");
+}
+
+.content-text-carousel {
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  p {
+    color: #5a5555;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-carousel {
+    img {
+      background: none !important;
+      margin-bottom: 10px;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.content-text-view-more {
+  p {
+    color: #5a5555;
+    font-size: 12px;
+  }
+}
+
+.card-carousel-best {
+  width: 10% !important;
+  height: auto;
+}
+
+.carousel-indicators {
+  margin-top: 200px !important;
+}
+
+.carousel {
+  margin-bottom: 220px !important;
+  .icon-carousel {
+    position: relative;
+    top: 100px !important;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    background-color: rgb(66, 66, 66) !important;
+  }
+  .icon-carousel:hover {
+    // margin-top: 100px;
+    background-color: rgb(68, 68, 68) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    margin-top: 5px !important;
+  }
+}
+
+.text-customer {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100 !important;
+}
+.text-best {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100 !important;
+}
